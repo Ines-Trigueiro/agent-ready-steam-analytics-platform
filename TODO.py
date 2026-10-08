@@ -12,7 +12,11 @@
             # TODO: Modern data stack: automating dlt and dbt pipeline with Dagster
             # TODO: Building a Data Pipeline with Dagster, dbt, and BigQuery, which is very close to your stack
             # TODO: Reference repo: dagster-io/quickstart-dbt
-    # TODO: 
+    # TODO: learn dbt
+        # TODO: dbt Fundamentals (https://learn.getdbt.com/learn/course/dbt-fundamentals/welcome-to-dbt-fundamentals-5min/welcome)
+        # TODO: Quickstart for dbt v1 using DuckDB (https://docs.getdbt.com/guides/duckdb?step=1)
+        # TODO: video: https://www.youtube.com/watch?v=hOT_xhBPfoo
+        # TODO: Building a Kimball dimensional model with dbt (https://docs.getdbt.com/blog/kimball-dimensional-model)
     # TODO: Player count data
         # TODO: Scaffold the project with uv and create-dagster, and make a registry/games.csv of about 200 app IDs.
         # TODO: Build one asset that fetches current players for all games and writes a JSON file per hour to data/landing/. Add an hourly schedule, then leave dagster dev running overnight with sleep disabled.
@@ -28,12 +32,6 @@
 
 # ## LEARNING
 
-# ### dbt
-
-# Quickstart for dbt Core using DuckDB. You already know DuckDB, so this is the fastest on-ramp.
-# Video: dbt + DuckDB: Complete Beginner Tutorial
-# dbt Fundamentals (free on learn.getdbt.com). Take the models, sources, tests, and docs modules and skip deployment.
-# Kimball: Building a Kimball dimensional model with dbt, plus the Kimball Group's "Dimensional Modeling Techniques" page. Read the section on the three fact table types; it's the backbone of your data model.
 
 # ### dlt
 
