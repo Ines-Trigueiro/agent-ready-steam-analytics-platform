@@ -39,3 +39,5 @@ models:
   agent-ready-steam-analytics-platform:
     staging:
       +materialized: view
+    marts:
+     +materialized: table
