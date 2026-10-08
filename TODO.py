@@ -2,9 +2,8 @@
 
 ## TODAY:
     # TODO: learn Dagster
-
         # TODO: Dagster University:
-        # TODO: Dagster Essentials: lessons on assets, resources, schedules, partitions, sensors.
+            # DONE: Dagster Essentials: lessons on assets, resources, schedules, partitions, sensors.
             # TODO: Dagster & dbt.
             # TODO: Dagster & ETL: covers APIs, backfilling from APIs, dlt basics, and Dagster with dlt. 
         # TODO: Docs: Dagster & dbt. If you are just getting started, the docs recommend the new dbt component, so follow that path. Also read the Asset checks and Freshness pages. 
@@ -13,7 +12,7 @@
             # TODO: Modern data stack: automating dlt and dbt pipeline with Dagster
             # TODO: Building a Data Pipeline with Dagster, dbt, and BigQuery, which is very close to your stack
             # TODO: Reference repo: dagster-io/quickstart-dbt
-
+    # TODO: 
     # TODO: Player count data
         # TODO: Scaffold the project with uv and create-dagster, and make a registry/games.csv of about 200 app IDs.
         # TODO: Build one asset that fetches current players for all games and writes a JSON file per hour to data/landing/. Add an hourly schedule, then leave dagster dev running overnight with sleep disabled.
