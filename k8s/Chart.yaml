@@ -1,0 +1,14 @@
+apiVersion: v2
+name: steam-platform
+description: A Helm chart for Kubernetes
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.16.0"
+
+dependencies:
+  - name: dagster
+    version: 1.13.25
+    repository: "https://dagster-io.github.io/helm"

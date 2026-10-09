@@ -1,0 +1,22 @@
+dagster:
+  dagster-user-deployments:
+    enabled: true
+    enableSubchart: true
+
+    deployments:
+      - name: dagster-essentials
+        image:
+          repository: sverrenystad/dagster-essentials
+          tag: "1.0.0"
+          pullPolicy: Always
+
+        dagsterApiGrpcArgs:
+          - "-m"
+          - "dagster_essentials.definitions"
+          - "-a"
+          - "defs"
+
+        port: 3030
+        env:
+          - name: DUCKDB_DATABASE
+            value: "/opt/dagster/app/data/analytics.duckdb"
